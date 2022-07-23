@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    flex-wrap: wrap;
+}
+.barra{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pochita {
+    width: 10%;
+    margin-left: 5%;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-right: 5%;
+    
+}
+.texto{
+    color: white;
+    text-decoration: dashed;
+}
