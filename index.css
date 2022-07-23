@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
 body{
     margin: 0%;
     flex-wrap: wrap;
@@ -22,4 +26,5 @@ body{
 .texto{
     color: white;
     text-decoration: dashed;
+    font-family: Roboto-Regular;
 }
