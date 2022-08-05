@@ -18,11 +18,12 @@ body{
     width: 100%;
     background-color: black;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
 }
 .pochita {
-    width: 10%;
+    width: 130px;
     margin-left: 5%;
 }
 .opciones{
@@ -52,7 +53,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    padding-top: 8rem;
 }
 
 .logo {
