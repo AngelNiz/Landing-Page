@@ -57,8 +57,8 @@ a {
 }
 
 .logo {
-    width: 50%;
-    margin-left: 22%;
+    width: 70vh;
+    margin-left: 8%;
 }
 
 .p1 {
@@ -86,7 +86,7 @@ a {
     font-family: Roboto-Regular;
     font-weight: 600;
     border-radius: 15px;
-    transition: background-color 0.5s ease-in;
+    transition: background-color 0.3s ease-in;
 }
 
 .boton:hover {
@@ -95,13 +95,16 @@ a {
 }
 
 .pochita2 {
-    margin-right: 10%;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 90vh;
     background-color: black;
 }
 
@@ -127,4 +130,21 @@ h2 {
 
 .csm {
     color: #F56B32;
+}
+
+.cartas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.btn  {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: #F56B32;
+    color: black;
 }
