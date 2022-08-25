@@ -18,7 +18,6 @@ body{
     width: 100%;
     background-color: black;
     display: flex;
-    position: fixed;
     justify-content: space-between;
     align-items: center;
 }
@@ -148,3 +147,60 @@ h2 {
     background-color: #F56B32;
     color: black;
 }
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: white;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img {
+    width: 450px;
+}
+
+.pie-pagina .grupo-1 .box h3{
+    font-family: Roboto-Bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.pie-pagina .grupo-1 .box h6{
+        font-family: Roboto-Bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr;
+    gap: 5px;
+    margin-top: 25px;
+}
+.grid .icono {
+    grid-column-start: x0;
+    grid-column-end: x1;
+}
+.grid .texto{
+    margin-right: 200px;
+}
+.pie-pagina .grupo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
