@@ -293,4 +293,13 @@ h2 {
         }.texto li:nth-child(3) {
             display: none;
         }
+        .small {
+            text-align: justify;
+        }
+        section {
+            padding: 1em;
+        }
+        footer {
+            padding: 1em;
+        }
     }
